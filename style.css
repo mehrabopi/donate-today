@@ -1,0 +1,236 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(donation13.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.text p {
+    font-size: 14px;
+
+}
+
+.sign-up {
+    background-image: linear-gradient(to bottom, #ff3c00 0% 0%, #ff3c00 100%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background-image: linear-gradient(to bottom, #ff3c00 0%, #ff3c00 100%);
+}
+
+.donate {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.update {
+    margin-top: 1000px;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+
+}
+
+.update p {
+    font-weight: 300;
+}
+
+.donate h5 {
+    font-weight: 300;
+}
+
+.today {
+    text-align: center;
+}
+
+.today p {
+    font-size: 14px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    margin: 50px;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.highlight {
+    background-color: #FFE3D9;
+    border: 2px solid orangered;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.highlight h1 {
+    color: orangered;
+}
+
+.highlight:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.bg-secondary {
+    width: 60%;
+    background-color: lightgray;
+    margin-left: 280px;
+    height: 5px;
+}
+
+.donate-plan {
+    margin-top: -150px;
+}
+
+.box-plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1-plan {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    margin: 50px;
+    flex-basis: 31%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.box-1-plan:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.box-1-plan img {
+    width: 50px;
+    height: 50px;
+}
+
+.box-body {
+    padding-top: 50px;
+    padding-right: 80px;
+}
+
+.box-body h1 {
+    font-weight: 500;
+}
+
+.new-color {
+    background-color: #ECF5F6;
+}
+
+.new-color-middle {
+    background-color: #FFEEED;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.half-width h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.con-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orangered, tomato);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.another {
+    margin-top: 500px;
+}
+
+.input-tag {
+    margin: -1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background: lightyellow;
+
+}
+
+.form-box input {
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.form-box button {
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background-color: tomato;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+footer img{
+   width: 100%;
+   margin-top: 300px;
+}
